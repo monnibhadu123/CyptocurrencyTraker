@@ -1,8 +1,13 @@
-import React from "react";
+mport React from "react";
+import Banner from "../components/Banner/Banner";
+import CoinsTable from "../components/CoinsTable";
 
 const Homepage = () => {
   return (
-   <div>Homepage</div>
+    <>
+      <Banner />
+      <CoinsTable />
+    </>
   );
 };
 

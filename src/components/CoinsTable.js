@@ -172,7 +172,7 @@ export default function CoinsTable() {
                         <TableCell
                           align="right"
                           style={{
-                            color: profit > 0 ? "rgb(14, 203, 129)" : "red",
+                            color: profit > 0 ? "rgb(124, 252, 0)" : "red",
                             fontWeight: 500,
                           }}
                         >

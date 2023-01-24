@@ -42,6 +42,9 @@ export default function CoinsTable() {
       },
       fontFamily: "Montserrat",
     },
+    root:{
+      backgroundImage: "linear-gradient(225deg, #ac32e4 0% , #7918f2 48% , #4801ff 100%)" 
+    },
     pagination: {
       "& .MuiPaginationItem-root": {
         color: "gold",
@@ -92,7 +95,7 @@ export default function CoinsTable() {
         >
           Cryptocurrency Prices by Market Cap
         </Typography>
-        <TextField
+        <TextField className = {classes.root}
           label="Search For a Crypto Currency.."
           variant="outlined"
           style={{ marginBottom: 20, width: "100%" }}

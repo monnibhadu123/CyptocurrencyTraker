@@ -44,10 +44,11 @@ const Header = () => {
         <Container>
           <Toolbar>
             <Typography
+               variant="h5"
               onClick={() => history.push("/")}
               className={classes.title}
             >
-              Crypyo Hunter
+              Crypto Hunter
             </Typography>
 
             <Select
